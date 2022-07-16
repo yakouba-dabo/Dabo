@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jamb-countdown</title>
+</head>
+      <body>
+            <h1>
+                  <span id="min"></span>
+                  <span id="tao">:</span>
+                  <span id="sec"></span>
+                  <button onclick="result()">Start</button>
+            </h1>
+            <script>
+                  function ola(x){
+                        var sola= x +"";
+                        if(sola.length<2){
+                        return "0"+sola;
+                        }
+                        else{return sola;}
+                  }
+                  var a= 0;
+                  var c= document.getElementById("min");
+                  var b=document.getElementById("sec");
+                  function setTime(){
+                        a++;
+                        b.innerHTML=ola(a% 60);
+                        c.innerHTML=ola(parseInt(a/60));
+                        if(c==2){
+                        clearInterval(x);
+                        }
+                  }
+                  function result(){
+                        x=setInterval(setTime, 1000);
+                  }
+            </script> 
+      </body>
+</html>

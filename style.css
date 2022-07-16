@@ -1,0 +1,753 @@
+@media screen and (min-width:768px){
+      ul li a.nav-link{
+            color:black;
+             position: relative;
+        }
+      ul li a.nav-link:hover::before{
+            width: 80%;
+        }
+      ul li a.nav-link::before{
+            content: "";
+            position: absolute;
+            background-color: green;
+            left:0;
+            bottom: 6px;
+            width: 0%;
+            height: 7px;
+            transition: 500ms;
+            
+      }
+      .change .bars2{
+            opacity: 0;
+      }
+      .change .bars3{
+            -webkit-transform: rotate(45deg) translate(-8px, -8px);
+            transform: rotate(45deg) translate(-8px, -8px);
+      }
+      .container-fluid{
+            display: inline-block;
+            cursor:pointer;
+            margin: 0px auto;
+            right: 300%;
+            }
+
+      .bars1, .bars2, .bars3 {
+            width: 35px;
+            height: 5px;
+            background-color: #333;
+            margin: 6px 0;
+            transition: 0.4s;
+      }
+      .change .bars1{
+           -webkit-transform: rotate(-45deg) translate(-9px,6px);
+            transform: rotate(-45deg) translate(-9px, 4px);
+      }
+
+      .typing{
+            color: brown;
+            font-weight: 600;
+            
+        }
+        #mh{
+            font-size: 27px;
+        }
+      .in{
+            font-family: inherit;
+            font-style: italic;
+            font-weight: bold;
+            font-size: 40px;
+            position: relative;
+            cursor: pointer;
+        }
+        .in:hover::before{
+            width: 51%;
+            
+        }
+        .in:before{
+        content: "";
+            position: absolute;
+            background-color: #dc143c;
+            left: 0;
+            bottom: 0;
+            width: 0%;
+            height: 5px;
+            transition: 500ms;
+        } 
+      .com a{
+            color: white;
+            text-decoration:none;
+                
+      }
+      .com a:hover{
+            color:#2525a4;
+      }       
+      .bon{
+            background-image: url("portfolio\ image/port.png");
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-position: center;
+            top:0px;
+            width:100%;
+            height: 400%;
+            padding-bottom:100px;;
+      }
+      video{
+            width:100%;
+            height: 100px;
+            border-radius: 50px;
+            margin-top: 30p;;
+      }
+      .any{
+            padding-bottom: 100px;
+      } 
+      .nav li a{
+            color: white;
+            margin-top: 30px;
+            font-size: 20px;
+      }
+      .nav li a:hover{
+            color: blue;
+      }
+      #pe{
+            color:brown;
+            margin-top: 40px;
+            font-size: 30px;;
+            transition: all 2ms ease ;
+      }
+      #pe:hover{
+            color: blue;
+      }
+      .col-3 img{
+            border-radius:10px;
+            height: 200%;
+            transition: all 2s ease;
+            
+        }
+      .me{
+            width: 10%;
+            padding: 7px;
+            border: none;
+            border-radius: 20px;
+            color: white;
+            background-color: brown;
+            font-size: 20px;
+            margin-top: 20px;
+            transition: background 500ms ease-in-out;
+            display: block;
+            margin: 0 auto;
+            margin-top: 50px;
+      }
+      .me:hover{
+            color: white;
+            background: green;
+            
+      }
+      .more{
+            background: #E74C3C;
+            border:1px solid ;
+            border-radius:5px;
+            padding: 10px;
+            width: 30%;
+            color: white;
+      }
+      .more:hover{
+            background: #646491
+      }
+      .col-4{
+            border: 1px solid white;
+            padding-left: -13px;
+            border-radius: 20px;
+            transition: color 0.3s ease-in;
+      }
+      .col-4:hover{
+            background: crimson;
+            color: white;
+      }
+      .fatone{
+            color: black;
+      }
+      i{
+            color: black;
+            text-align: center;
+                
+      }
+      .any{
+            padding-top: 40px;
+      }
+      #myprogress{
+            position: relative;
+            width: 100%;
+            height: 20px;
+            background-color: grey;
+      }
+      #mybars{
+            position: relative;
+            width: 1%;
+            height: 95%;
+            background-color: crimson;
+      }
+      #label{
+            text-align: right;
+            line-height: 25px;
+            color: white;
+            
+      }
+     
+      /* another one for css */
+      #morino{
+            position: relative;
+            width: 100%;
+            height: 20px;
+            background-color: grey;
+      }
+      #mybar{
+            position: relative;
+            width: 1%;
+            height: 95%;
+            background-color: crimson;
+      }
+      #city{
+            text-align: right;
+            line-height: 25px;
+            color: white;
+            
+      }
+      /*another one for javascript*/
+
+      #playthis{
+            position: relative;
+            width: 100%;
+            height: 20px;
+            background-color: grey;
+      }
+      #sell{
+            position: relative;
+            width: 1%;
+            height: 95%;
+            background-color: crimson;
+      }
+      #tunji{
+            text-align: right;
+            line-height: 25px;
+            color: white;
+            
+      }
+
+      .milan{
+            border: 1px solid ;
+            border-radius: 10px;
+            background: crimson;
+            color: white;
+            width:20%;
+            margin-top: -10px;
+      }
+      .card{
+            background-color: #2525a4;
+      }
+      .card:hover{
+            transition: padding 1mw ease-in-out;
+            background: red;
+            padding: 10px;
+            color: white;
+      }
+      .nan{
+            background: rgb(109,89,60);
+            color: white;
+      }
+      .fa-user{
+            padding: 10px;
+            border:1px solid ;
+            color: white;
+            background:#DC143C;
+            padding-left: 10px;
+        }
+        input{
+            outline: none;
+        }
+        .name{
+        margin-left: 20px;
+        }
+        .fa-map-marker{
+            color:white;
+            border: 1px solid white;
+            padding: 10px;
+            padding-left:13px;
+            background-color: #dc143c;
+        }
+      #love{
+            color: white;
+            border: 1px solid white;
+            padding: 10px;
+            background: #dc143c;
+            
+        }
+      textarea{
+            width: 100%;
+            outline: none;
+        }
+      #today{
+            width:100%;
+            padding: 5px;
+      }
+      .vien{
+            margin-top: 30px;
+            font-size: 30px;
+            font-family: capitalize;
+            font-weight: bold;
+      }
+      #mit{
+            padding: 5px;
+            width: 20%;
+            margin-top: 10px;
+            background-color: #dc143c;
+            color: white;
+            border: 1px solid ;
+            border-radius: 5px;
+            transition: all 2s ease-in-out;
+        }
+        #mit:hover{
+            padding: 5px;
+            width: 25%;
+            background: indigo;
+           
+      }
+      footer{
+            text-align: center;
+            padding: 10px;
+            background: black;
+            color:white;
+            font-size: 20px;
+            font-family:sans-serif ;
+            font-weight: bold;
+            position: relative;
+            cursor: pointer;
+      }      
+      footer::before{
+            content: "";
+            position: absolute;
+            background-color:red;
+            left: 0;
+            bottom: 0;
+            width: 0%;
+            height: 5px;
+            transition: 500ms;
+      }
+      footer:hover::before{
+            width: 100%;
+      }
+      /* .mystuff{
+            text-align: center;
+            margin-top: 60px;
+            font-size: 35px;
+            color:white;
+      } */
+      #like{
+            background:wheat;
+            width:100%;
+            position: fixed;
+            right:125x;
+            top: 0px;
+            z-index: 100;
+      }
+      #can{
+            display: none;
+        }
+      .mystuff{
+            text-align: center;
+            margin-top: 60px;
+            font-weight: 500;
+            color:orange;
+            margin: 0px auto;
+      }
+      #myb{
+            font-size:30px;
+            text-align: center;
+            margin-top: 60px;
+        }
+}
+@media screen  and (max-width:768px){
+      ul li a.nav-link{
+            color:orange;
+             position: relative;
+        }
+      ul li a.nav-link:hover::before{
+            width: 90%;
+        }
+      ul li a.nav-link::before{
+            content: "";
+            position: absolute;
+            background-color: green;
+            left:0;
+            bottom: 0;
+            width: 0%;
+            height: 3px;
+            transition: 500ms;
+            
+      }
+      .change .bars2{
+            opacity: 0;
+      }
+      .change .bars3{
+            -webkit-transform: rotate(45deg) translate(-8px, -8px);
+            transform: rotate(45deg) translate(-8px, -8px);
+      }
+      .container-fluid{
+            display: inline-block;
+            cursor:pointer;
+            margin: 0px auto;
+            margin-top: 30px;
+            }
+
+      .bars1, .bars2, .bars3 {
+            width: 35px;
+            height: 5px;
+            background-color: #333;
+            margin: 6px 0;
+            transition: 0.4s;
+      }
+      .change .bars1{
+           -webkit-transform: rotate(-45deg) translate(-9px,6px);
+            transform: rotate(-45deg) translate(-9px, 4px);
+      }
+
+      .typing{
+            color: brown;
+            font-weight: 600;
+            
+        }
+        #mh{
+            font-size: 27px;
+        }
+      .in{
+            font-family: inherit;
+            font-style: italic;
+            font-weight: bold;
+            font-size: 40px;
+            position: relative;
+            cursor: pointer;
+        }
+        input{
+            outline: none;
+        }
+        .in:hover::before{
+            width: 51%;
+            
+        }
+        .in:before{
+        content: "";
+            position: absolute;
+            background-color: #dc143c;
+            left: 0;
+            bottom: 0;
+            width: 0%;
+            height: 5px;
+            transition: 500ms;
+        } 
+      .com a{
+            color: white;
+            text-decoration:none;
+                
+      }
+      .com a:hover{
+            color:#2525a4;
+      }       
+      .bon{
+            background-image: url("portfolio\ image/port.png");
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-position: center;
+            top:0px;
+            width:100%;
+            height: 400%;
+            padding-bottom:100px;;
+      }
+      video{
+            width:100%;
+            height: 100px;
+            border-radius: 50px;
+            margin-top: 30p;;
+      }
+      .any{
+            padding-bottom: 100px;
+      } 
+      .nav li a{
+            color: white;
+            margin-top: 30px;
+            font-size: 20px;
+      }
+      .nav li a:hover{
+            color: orange;
+      }
+      #pe{
+            color:brown;
+            margin-top: 40px;
+            font-size: 30px;;
+            transition: all 2ms ease ;
+      }
+      #pe:hover{
+            color: blue;
+      }
+      .col-3 img{
+            border-radius:10px;
+            height: 200%;
+            transition: all 2s ease;
+            
+        }
+      .me{
+            width: 10%;
+            padding: 7px;
+            border: none;
+            border-radius: 20px;
+            color: white;
+            background-color: brown;
+            font-size: 20px;
+            margin-top: 20px;
+            transition: background 500ms ease-in-out;
+            display: block;
+            margin: 0 auto;
+            margin-top: 50px;
+      }
+      .me:hover{
+            color: white;
+            background: green;
+            
+      }
+      .more{
+            background: #E74C3C;
+            border:1px solid ;
+            border-radius:5px;
+            padding: 10px;
+            width: 30%;
+            color: white;
+      }
+      .more:hover{
+            background: #646491
+      }
+      .col-4{
+            border: 1px solid white;
+            padding-left: -13px;
+            border-radius: 20px;
+            transition: color 0.3s ease-in;
+      }
+      .col-4:hover{
+            background: crimson;
+            color: white;
+      }
+      .fatone{
+            color: black;
+      }
+      i{
+            color: black;
+            text-align: center;
+                
+      }
+      .any{
+            padding-top: 40px;
+      }
+      #myprogress{
+            position: relative;
+            width: 100%;
+            height: 20px;
+            background-color: grey;
+      }
+      #mybars{
+            position: relative;
+            width: 1%;
+            height: 95%;
+            background-color: crimson;
+      }
+      #label{
+            text-align: right;
+            line-height: 25px;
+            color: white;
+            
+      }
+     
+      /* another one for css */
+      #morino{
+            position: relative;
+            width: 100%;
+            height: 20px;
+            background-color: grey;
+      }
+      #mybar{
+            position: relative;
+            width: 1%;
+            height: 95%;
+            background-color: crimson;
+      }
+      #city{
+            text-align: right;
+            line-height: 25px;
+            color: white;
+            
+      }
+      /*another one for javascript*/
+
+      #playthis{
+            position: relative;
+            width: 100%;
+            height: 20px;
+            background-color: grey;
+      }
+      #sell{
+            position: relative;
+            width: 1%;
+            height: 95%;
+            background-color: crimson;
+      }
+      #tunji{
+            text-align: right;
+            line-height: 25px;
+            color: white;
+            
+      }
+
+      .milan{
+            border: 1px solid ;
+            border-radius: 10px;
+            background: crimson;
+            color: white;
+            width:20%;
+            margin-top: -10px;
+      }
+      .card{
+            background-color: #2525a4;
+            margin-top: 30px;
+      }
+      .card:hover{
+            transition: padding 1mw ease-in-out;
+            background: red;
+            padding: 10px;
+            color: white;
+      }
+      .nan{
+            background: rgb(109,89,60);
+            color: white;
+      }
+      .fa-user{
+            padding: 10px;
+            border:1px solid ;
+            color: white;
+            background:#DC143C;
+            padding-left: 10px;
+        }
+      .name{
+        margin-left: 20px;
+      }
+      .fa-map-marker{
+            color:white;
+            border: 1px solid white;
+            padding: 10px;
+            padding-left:13px;
+            background-color: #dc143c;
+      }
+      #love{
+            color: white;
+            border: 1px solid white;
+            padding: 10px;
+            background: #dc143c;
+            
+        }
+      textarea{
+            width: 100%;
+            outline: none;
+        }
+      #today{
+            width:100%;
+            padding: 5px;
+      }
+      .vien{
+            margin-top: 30px;
+            font-size: 30px;
+            font-family: capitalize;
+            font-weight: bold;
+      }
+      #mit{
+            padding: 5px;
+            width: 20%;
+            margin-top: 10px;
+            background-color: #dc143c;
+            color: white;
+            border: 1px solid ;
+            border-radius: 5px;
+            transition: all 2s ease-in-out;
+        }
+        #mit:hover{
+            padding: 5px;
+            width: 25%;
+            background: indigo;
+           
+      }
+      footer{
+            text-align: center;
+            padding: 10px;
+            background: black;
+            color:white;
+            font-size: 20px;
+            font-family:sans-serif ;
+            font-weight: bold;
+            position: relative;
+            cursor: pointer;
+      }      
+      footer::before{
+            content: "";
+            position: absolute;
+            background-color:red;
+            left: 0;
+            bottom: 0;
+            width: 0%;
+            height: 5px;
+            transition: 500ms;
+      }
+      footer:hover::before{
+            width: 100%;
+      }
+      .mystuff{
+            text-align: center;
+            margin-top: 60px;
+            font-weight: 500;
+            color:orange;
+            margin-left: 30px;
+      }
+      #myb{
+            font-size:30px;
+        }
+        
+      #like{
+            background:aqua;
+            width:100%;
+            position: fixed;
+            right:125x;
+            top: 0px;
+            z-index: 100;
+      }
+      .nav li {
+            display: none;
+      }
+      .vien{
+            width: 200px;
+      }
+      .me{
+            width:20%;
+        }
+      #can{
+            display: block;
+      }
+      /* Offcanvar*/
+      ul.offcan li {
+            margin: 25px 0;
+            list-style-type: none;
+      }
+      ul.offcan li a {
+            color: black;
+            text-decoration: none;
+            font-size: 20px;
+            font-weight: 600;
+            transition: color 500ms ease-in-out, padding 500ms ease-in-out;
+      }
+      ul.offcan li a:hover {
+            color: brown;
+            padding: 0px 0px 0px 20px;
+      }
+}
